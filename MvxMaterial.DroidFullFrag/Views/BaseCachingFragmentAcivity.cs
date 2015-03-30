@@ -8,14 +8,14 @@ using Cirrious.MvvmCross.Droid.Platform;
 using Cirrious.MvvmCross.Droid.Views;
 using Cirrious.MvvmCross.ViewModels;
 using Cirrious.MvvmCross.Views;
+using MvxMaterial.Activities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using MvxActivity = Cirrious.MvvmCross.Droid.FullFragging.Views.MvxActivity;
 
 namespace MvxMaterial.Views
 {
-    public class BaseCachingFragmentAcivity : MvxActivity
+    public class BaseCachingFragmentAcivity : MvxActionBarActivity
     {
         private const string SavedFragmentTypesKey = "__mvxSavedFragmentTypes";
         private const string SavedCurrentFragmentsKey = "__mvxSavedCurrentFragments";

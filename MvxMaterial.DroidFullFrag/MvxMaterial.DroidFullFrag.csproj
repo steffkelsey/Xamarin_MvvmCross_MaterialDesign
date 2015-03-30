@@ -97,6 +97,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\MvxActionBarActivity.cs" />
+    <Compile Include="Activities\MvxEventSourceActionBarActivity.cs" />
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
     <Compile Include="DebugTrace.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
@@ -155,6 +157,7 @@
     <AndroidResource Include="Resources\transition\slide_bottom.xml" />
     <AndroidResource Include="Resources\transition\slide_top.xml" />
     <AndroidResource Include="Resources\transition\long_fade.xml" />
+    <AndroidResource Include="Resources\layout\toolbar.axml" />
     <Content Include="ToDo-MvvmCross\_ Droid UI.txt" />
   </ItemGroup>
   <ItemGroup>

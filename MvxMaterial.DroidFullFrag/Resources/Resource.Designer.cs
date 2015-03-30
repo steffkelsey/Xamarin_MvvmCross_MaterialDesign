@@ -1203,6 +1203,9 @@ namespace MvxMaterial
 			// aapt resource value: 0x7f090009
 			public const int MvxBindingTagUnique = 2131296265;
 			
+			// aapt resource value: 0x7f090043
+			public const int ToolBar = 2131296323;
+			
 			// aapt resource value: 0x7f090032
 			public const int action_bar = 2131296306;
 			
@@ -1512,7 +1515,10 @@ namespace MvxMaterial
 			public const int support_simple_spinner_dropdown_item = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int write_message = 2130903069;
+			public const int toolbar = 2130903069;
+			
+			// aapt resource value: 0x7f03001e
+			public const int write_message = 2130903070;
 			
 			static Layout()
 			{
@@ -1583,6 +1589,15 @@ namespace MvxMaterial
 			
 			// aapt resource value: 0x7f0b0012
 			public const int app_name = 2131427346;
+			
+			// aapt resource value: 0x7f0b0013
+			public const int mail_list_title = 2131427347;
+			
+			// aapt resource value: 0x7f0b0014
+			public const int settings_title = 2131427348;
+			
+			// aapt resource value: 0x7f0b0015
+			public const int write_message_title = 2131427349;
 			
 			static String()
 			{

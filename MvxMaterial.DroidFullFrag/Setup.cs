@@ -6,6 +6,8 @@ using Cirrious.MvvmCross.Droid.Views;
 using Cirrious.MvvmCross.ViewModels;
 using MvxMaterial.Core;
 using MvxMaterial.Presenters;
+using System.Collections.Generic;
+using System.Reflection;
 
 namespace MvxMaterial
 {
@@ -31,6 +33,17 @@ namespace MvxMaterial
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();
+        }
+
+        protected override IList<Assembly> AndroidViewAssemblies
+        {
+            get
+            {
+                var assemblies = base.AndroidViewAssemblies;
+                assemblies.Add(typeof(Android.Support.V7.Widget.Toolbar).Assembly);
+                assemblies.Add(typeof(Android.Support.V4.Widget.DrawerLayout).Assembly);
+                return assemblies;
+            }
         }
     }
 }
