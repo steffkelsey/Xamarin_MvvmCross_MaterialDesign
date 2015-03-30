@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <!-- TextAppearance -->
+    <style name="TextAppearance.MvxMaterial" parent="android:TextAppearance">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+</resources>
