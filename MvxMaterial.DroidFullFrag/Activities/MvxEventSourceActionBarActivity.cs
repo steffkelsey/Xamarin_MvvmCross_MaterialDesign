@@ -1,3 +1,13 @@
+// MvxEventSourceActionBarActivity.cs
+// (c) Copyright Cirrious Ltd. http://www.cirrious.com
+// MvvmCross is licensed using Microsoft Public License (Ms-PL)
+// Contributions and inspirations noted in readme.md and license.txt
+// 
+// Project Lead - Stuart Lodge, @slodge, me@slodge.com
+
+// This is a mod of the MvxEventSourceActivity so that we can use the Support Action Bar
+// and the Material Design Toolbar
+
 using Android.App;
 using Android.Content;
 using Android.OS;
