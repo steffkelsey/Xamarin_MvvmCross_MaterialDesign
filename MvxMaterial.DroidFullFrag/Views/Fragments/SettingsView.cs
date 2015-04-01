@@ -1,14 +1,14 @@
 using Android.Animation;
 using Android.App;
 using Android.OS;
-using Android.Transitions;
 using Android.Views;
 using Cirrious.MvvmCross.Binding.Droid.BindingContext;
 using Cirrious.MvvmCross.Droid.FullFragging.Fragments;
+using MvxMaterial.Core.ViewModels;
 
 namespace MvxMaterial.Views.Fragments
 {
-    public class SettingsView : MvxFragment
+    public class SettingsView : MvxFragment<SettingsViewModel>
     {
         public override void OnCreate(Bundle savedInstanceState)
         {

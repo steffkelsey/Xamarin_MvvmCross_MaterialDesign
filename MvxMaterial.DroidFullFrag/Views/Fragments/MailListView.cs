@@ -1,5 +1,4 @@
 using Android.OS;
-using Android.Support.V7.App;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Cirrious.MvvmCross.Binding.Droid.BindingContext;
@@ -9,7 +8,7 @@ using MvxMaterial.Core.ViewModels;
 
 namespace MvxMaterial.Views.Fragments
 {
-    public class MailListView : MvxFragment
+    public class MailListView : MvxFragment<MailListViewModel>
     {
         public override void OnCreate(Bundle savedInstanceState)
         {
@@ -19,7 +18,7 @@ namespace MvxMaterial.Views.Fragments
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var ignored = base.OnCreateView(inflater, container, savedInstanceState);
-            var viewModel = (MailListViewModel)this.ViewModel;
+            var viewModel = this.ViewModel;
             var view = this.BindingInflate(Resource.Layout.mail_list, null);
             
             // get the toolbar from the fragment layout

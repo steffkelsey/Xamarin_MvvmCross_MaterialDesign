@@ -2,10 +2,11 @@ using Android.OS;
 using Android.Views;
 using Cirrious.MvvmCross.Binding.Droid.BindingContext;
 using Cirrious.MvvmCross.Droid.FullFragging.Fragments;
+using MvxMaterial.Core.ViewModels;
 
 namespace MvxMaterial.Views.Fragments
 {
-    public class WriteMessageView : MvxFragment
+    public class WriteMessageView : MvxFragment<WriteMessageViewModel>
     {
         public override void OnCreate(Bundle savedInstanceState)
         {
