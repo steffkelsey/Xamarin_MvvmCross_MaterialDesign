@@ -1,3 +1,13 @@
+// MvxFragmentsPresenter.cs
+// (c) Copyright Cirrious Ltd. http://www.cirrious.com
+// MvvmCross is licensed using Microsoft Public License (Ms-PL)
+// Contributions and inspirations noted in readme.md and license.txt
+// 
+// Project Lead - Stuart Lodge, @slodge, me@slodge.com
+
+// This is a slight mod of MvxFragmentsPresenter.cs. The Close method was added to help fully support
+// the Android Back button
+
 using Android.OS;
 using Cirrious.CrossCore;
 using Cirrious.MvvmCross.Droid.Views;

@@ -1,3 +1,15 @@
+// MvxBaseCachingFragmentAcivity.cs
+// (c) Copyright Cirrious Ltd. http://www.cirrious.com
+// MvvmCross is licensed using Microsoft Public License (Ms-PL)
+// Contributions and inspirations noted in readme.md and license.txt
+// 
+// Project Lead - Stuart Lodge, @slodge, me@slodge.com
+
+// This is a slight mod of BaseCachingFragmentAcivity.cs so that the Support Action Bar can be used
+// with the Material Design Toolbar
+// AND for back button support
+// AND for better control of the transitions between fragments
+
 using Android.App;
 using Android.OS;
 using Cirrious.CrossCore;
