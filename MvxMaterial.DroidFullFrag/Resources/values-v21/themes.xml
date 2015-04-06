@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    
+    <!-- App Theme -->
+    <style name="Theme.MaterialDemo" parent="Theme.MaterialDemo.Base">
+        <!-- for having translucent status bar over the navigation drawer -->
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+    </style>    
+
+</resources>
