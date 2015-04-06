@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    
+
     <!-- Splash Screen Theme -->
     <style name="Theme.Splash" parent="android:Theme">
         <item name="android:windowBackground">@drawable/splash</item>
         <item name="android:windowNoTitle">true</item>
     </style>
+
+    <!-- App Theme -->
+    <style name="Theme.MaterialDemo" parent="Theme.MaterialDemo.Base"></style>
     
-    <!-- SunSprite Theme -->
-    <style name="Theme.MaterialDemo" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.MaterialDemo.Base" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- enable transitions-->
         <item name="android:windowActivityTransitions">true</item>
         <!-- Colors -->
@@ -18,6 +20,6 @@
         <item name="android:textColorPrimary">@color/dark_gray</item>
         <item name="android:textColorSecondary">@color/light_gray</item>
         <item name="android:textColorPrimaryInverse">@color/white</item>
-    </style>    
+    </style>
 
 </resources>

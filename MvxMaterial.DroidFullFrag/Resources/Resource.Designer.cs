@@ -991,6 +991,12 @@ namespace MvxMaterial
 			// aapt resource value: 0x7f080024
 			public const int abc_text_size_title_material_toolbar = 2131230756;
 			
+			// aapt resource value: 0x7f08002b
+			public const int activity_horizontal_margin = 2131230763;
+			
+			// aapt resource value: 0x7f08002c
+			public const int activity_vertical_margin = 2131230764;
+			
 			// aapt resource value: 0x7f080025
 			public const int dialog_fixed_height_major = 2131230757;
 			
@@ -1008,6 +1014,12 @@ namespace MvxMaterial
 			
 			// aapt resource value: 0x7f08002a
 			public const int disabled_alpha_material_light = 2131230762;
+			
+			// aapt resource value: 0x7f08002d
+			public const int navigation_drawer_width = 2131230765;
+			
+			// aapt resource value: 0x7f08002e
+			public const int tool_bar_top_padding = 2131230766;
 			
 			static Dimension()
 			{
@@ -1176,10 +1188,13 @@ namespace MvxMaterial
 			public const int abc_textfield_search_material = 2130837554;
 			
 			// aapt resource value: 0x7f020033
-			public const int Icon = 2130837555;
+			public const int ic_drawer = 2130837555;
 			
 			// aapt resource value: 0x7f020034
-			public const int splash = 2130837556;
+			public const int Icon = 2130837556;
+			
+			// aapt resource value: 0x7f020035
+			public const int splash = 2130837557;
 			
 			static Drawable()
 			{
@@ -1194,17 +1209,17 @@ namespace MvxMaterial
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f090042
-			public const int Button = 2131296322;
+			// aapt resource value: 0x7f090043
+			public const int Button = 2131296323;
 			
-			// aapt resource value: 0x7f090041
-			public const int Header = 2131296321;
+			// aapt resource value: 0x7f090042
+			public const int Header = 2131296322;
 			
 			// aapt resource value: 0x7f090009
 			public const int MvxBindingTagUnique = 2131296265;
 			
-			// aapt resource value: 0x7f090043
-			public const int ToolBar = 2131296323;
+			// aapt resource value: 0x7f090045
+			public const int ToolBar = 2131296325;
 			
 			// aapt resource value: 0x7f090032
 			public const int action_bar = 2131296306;
@@ -1245,6 +1260,9 @@ namespace MvxMaterial
 			// aapt resource value: 0x7f090021
 			public const int action_mode_close_button = 2131296289;
 			
+			// aapt resource value: 0x7f090046
+			public const int action_settings = 2131296326;
+			
 			// aapt resource value: 0x7f090022
 			public const int activity_chooser_view_content = 2131296290;
 			
@@ -1274,6 +1292,9 @@ namespace MvxMaterial
 			
 			// aapt resource value: 0x7f09000d
 			public const int disableHome = 2131296269;
+			
+			// aapt resource value: 0x7f090044
+			public const int drawer_layout = 2131296324;
 			
 			// aapt resource value: 0x7f09001d
 			public const int dropdown = 2131296285;
@@ -1331,6 +1352,9 @@ namespace MvxMaterial
 			
 			// aapt resource value: 0x7f09002c
 			public const int radio = 2131296300;
+			
+			// aapt resource value: 0x7f090041
+			public const int right_drawer = 2131296321;
 			
 			// aapt resource value: 0x7f090036
 			public const int search_badge = 2131296310;
@@ -1500,25 +1524,28 @@ namespace MvxMaterial
 			public const int container = 2130903063;
 			
 			// aapt resource value: 0x7f030018
-			public const int login = 2130903064;
+			public const int drawer = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int mail_list = 2130903065;
+			public const int login = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int settings = 2130903066;
+			public const int mail_list = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int splash_screen = 2130903067;
+			public const int settings = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int support_simple_spinner_dropdown_item = 2130903068;
+			public const int splash_screen = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int toolbar = 2130903069;
+			public const int support_simple_spinner_dropdown_item = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int write_message = 2130903070;
+			public const int toolbar = 2130903070;
+			
+			// aapt resource value: 0x7f03001f
+			public const int write_message = 2130903071;
 			
 			static Layout()
 			{
@@ -1526,6 +1553,22 @@ namespace MvxMaterial
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0d0000
+			public const int main = 2131558400;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
@@ -1587,8 +1630,17 @@ namespace MvxMaterial
 			// aapt resource value: 0x7f0b000f
 			public const int abc_toolbar_collapse_description = 2131427343;
 			
+			// aapt resource value: 0x7f0b0016
+			public const int action_settings = 2131427350;
+			
 			// aapt resource value: 0x7f0b0012
 			public const int app_name = 2131427346;
+			
+			// aapt resource value: 0x7f0b0018
+			public const int drawer_close = 2131427352;
+			
+			// aapt resource value: 0x7f0b0017
+			public const int drawer_open = 2131427351;
 			
 			// aapt resource value: 0x7f0b0013
 			public const int mail_list_title = 2131427347;
@@ -2154,6 +2206,9 @@ namespace MvxMaterial
 			
 			// aapt resource value: 0x7f0c00ed
 			public const int Theme_MaterialDemo = 2131493101;
+			
+			// aapt resource value: 0x7f0c00ee
+			public const int Theme_MaterialDemo_Base = 2131493102;
 			
 			// aapt resource value: 0x7f0c00ec
 			public const int Theme_Splash = 2131493100;
