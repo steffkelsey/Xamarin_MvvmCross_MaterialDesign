@@ -221,8 +221,13 @@ namespace MvxMaterial.Views
             // if we haven't already created a Fragment, do it now
             if (fragInfo.CachedFragment == null)
             {
-                fragInfo.CachedFragment = Fragment.Instantiate(this, FragmentJavaName(fragInfo.FragmentType),
+                fragInfo.CachedFragment = Fragment.Instantiate(
+                    this,
+                    Java.Lang.Class.FromType(fragInfo.FragmentType).Name,
                     bundle);
+                
+                //fragInfo.CachedFragment = Fragment.Instantiate(this, FragmentJavaName(fragInfo.FragmentType),
+                //    bundle);
             }
 
             ft.Replace(fragInfo.ContentId, fragInfo.CachedFragment, fragInfo.Tag);
